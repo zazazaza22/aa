@@ -1,0 +1,24 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Booga Booga", "Synapse")
+
+local Tab = Window:NewTab("Teleport")
+local Tab1 = Window:NewTab("Script")
+
+local a1 = Tab:NewSection("Old God/Hatefull God")
+local a2 = Tab1:NewSection("idk")
+
+a2:NewButton("Execute", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zazazaza22/idk/main/de1", true))()
+end)
+
+a1:NewButton("Old God", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1022.2797241210938, -115.3476791381836, -801.4329223632812)
+end)
+
+a1:NewButton("Hatefull God", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1114.5362548828125, -207.4273681640625, -745.987548828125)
+end)
+
+a1:NewButton("Ancient tree", "", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(165.48788452148438, -347.0733642578125, -504.6952209472656)
+end)
